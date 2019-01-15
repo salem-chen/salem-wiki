@@ -1,0 +1,46 @@
+#env
+.env
+.env.alpha
+.env.release
+
+# Laravel
+/bootstrap/compiled.php
+node_modules
+/vendor
+/tests
+
+#bower
+/bower
+
+# Composer
+composer.phar
+composer.lock
+package-lock.json
+
+# OS
+.DS_Store
+.idea/
+vagrant
+.vagrant
+
+# Packages
+_ide_helper.php
+
+#ctag
+.tags_sorted_by_file
+.tags
+
+#public assets
+public/build
+
+#public file
+public/*
+public/uploads
+public/uploads/*
+
+#storage/upload
+storage/upload
+phpunit
+storage/debugbar
+storage/app/geoip.mmdb
+
