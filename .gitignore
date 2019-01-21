@@ -35,9 +35,9 @@ _ide_helper.php
 public/build
 
 #public file
-public/*
-public/uploads
-public/uploads/*
+#public/*
+#public/uploads
+#public/uploads/*
 
 #storage/upload
 storage/upload
