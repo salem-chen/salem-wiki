@@ -21,7 +21,7 @@ class HomeController extends AdminBaseController
         $data = DB::table("technology")
             ->where($where)
             ->orderBy("order_sort",'desc')->get();
-
+        $a  = 0;
         return view('admin.index',['data'=>$data]);
     }
 }
