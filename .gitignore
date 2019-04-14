@@ -1,7 +1,5 @@
 #env
-.env
-.env.alpha
-.env.release
+
 
 # Laravel
 /bootstrap/compiled.php
